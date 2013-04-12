@@ -1,7 +1,8 @@
 # Women Who Code... Sincerely
 
-Current Branch: This is a very basic example of Sincerely. You can
-send a Women Who Code postcard by pressing the button!
+## Current Branch
+
+Choose a file from filepicker and print out a postcard!
 
 ## Overview
 
@@ -11,11 +12,8 @@ Sincerely's Ship API is highly awesome and enables you to take pictures and send
 http://www.meetup.com/Women-Who-Code-SF/events/113359282/
 Meetup at Sincerely, April 12, 2013
 
-# Under Construction
-
-I'm going to send out an email when this is ready. Please download this code to your computer the night before or when you first arrive at Sincerely.
 
 # Helpful Links
 
 * Ship Library by Sincerely https://dev.sincerely.com/docs
-
+* Filepicker.io iOS - https://developers.filepicker.io/docs/ios/#installquick
