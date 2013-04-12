@@ -18,6 +18,7 @@
 		64AE2F351718630000B4F6E0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F341718630000B4F6E0 /* Default-568h@2x.png */; };
 		64AE2F381718630000B4F6E0 /* WWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AE2F371718630000B4F6E0 /* WWViewController.m */; };
 		64AE2F3B1718630000B4F6E0 /* WWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F391718630000B4F6E0 /* WWViewController.xib */; };
+		64AE2F431718646B00B4F6E0 /* Sincerely-1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F421718646B00B4F6E0 /* Sincerely-1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		64AE2F361718630000B4F6E0 /* WWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWViewController.h; sourceTree = "<group>"; };
 		64AE2F371718630000B4F6E0 /* WWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWViewController.m; sourceTree = "<group>"; };
 		64AE2F3A1718630000B4F6E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WWViewController.xib; sourceTree = "<group>"; };
+		64AE2F41171863A400B4F6E0 /* ConsumerCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumerCredentials.h; sourceTree = "<group>"; };
+		64AE2F421718646B00B4F6E0 /* Sincerely-1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Sincerely-1.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,7 @@
 				64AE2F1F1718630000B4F6E0 /* UIKit.framework in Frameworks */,
 				64AE2F211718630000B4F6E0 /* Foundation.framework in Frameworks */,
 				64AE2F231718630000B4F6E0 /* CoreGraphics.framework in Frameworks */,
+				64AE2F431718646B00B4F6E0 /* Sincerely-1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +60,8 @@
 		64AE2F12171862FF00B4F6E0 = {
 			isa = PBXGroup;
 			children = (
+				64AE2F421718646B00B4F6E0 /* Sincerely-1.framework */,
+				64AE2F41171863A400B4F6E0 /* ConsumerCredentials.h */,
 				64AE2F241718630000B4F6E0 /* Women Who Code Sincerely */,
 				64AE2F1D1718630000B4F6E0 /* Frameworks */,
 				64AE2F1C1718630000B4F6E0 /* Products */,
@@ -261,6 +267,10 @@
 		64AE2F3F1718630000B4F6E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Women Who Code Sincerely/Women Who Code Sincerely-Prefix.pch";
 				INFOPLIST_FILE = "Women Who Code Sincerely/Women Who Code Sincerely-Info.plist";
@@ -272,6 +282,10 @@
 		64AE2F401718630000B4F6E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Women Who Code Sincerely/Women Who Code Sincerely-Prefix.pch";
 				INFOPLIST_FILE = "Women Who Code Sincerely/Women Who Code Sincerely-Info.plist";
