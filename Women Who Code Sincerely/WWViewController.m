@@ -41,4 +41,31 @@
     
     }
 }
+
+#pragma mark -
+#pragma mark - SYSincerelyControllerDelegate
+-(void)sincerelyControllerDidFinish:(SYSincerelyController *)controller {
+    /*
+     * Here I know that the user made a purchase and I can do something with it
+     */
+    
+    [self dismissViewControllerAnimated:YES completion:NULL];
+}
+
+-(void)sincerelyControllerDidCancel:(SYSincerelyController *)controller {
+    /*
+     *  Here I know that the user hit the cancel button and they want to leave the Sincerely Controller
+     */
+    
+    [self dismissViewControllerAnimated:YES completion:NULL];
+}
+
+-(void)sincerelyControllerDidFailInitiationWithError:(NSError *)error {
+    /*
+     *  Here I know that incorrect inputs were given to initWithImages:product:applicationKey:delegate
+     */
+    
+    NSLog(@"Error: %@", error);
+}
+
 @end
