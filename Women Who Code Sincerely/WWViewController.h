@@ -10,6 +10,7 @@
 #import <Sincerely/Sincerely.h>
 #import <Sincerely/SincerelyConstants.h>
 #import "ConsumerCredentials.h"
+#import <FPPicker/FPPicker.h>
 
 @interface WWViewController : UIViewController <SYSincerelyControllerDelegate>
 

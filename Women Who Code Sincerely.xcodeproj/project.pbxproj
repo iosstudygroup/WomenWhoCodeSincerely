@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		643F04EB17187915008F1E05 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04EA17187915008F1E05 /* AssetsLibrary.framework */; };
+		643F04ED17187919008F1E05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04EC17187919008F1E05 /* QuartzCore.framework */; };
+		643F04EF1718791F008F1E05 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04EE1718791F008F1E05 /* CoreFoundation.framework */; };
+		643F04F117187924008F1E05 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04F017187924008F1E05 /* MobileCoreServices.framework */; };
 		64AE2F1F1718630000B4F6E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F1E1718630000B4F6E0 /* UIKit.framework */; };
 		64AE2F211718630000B4F6E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F201718630000B4F6E0 /* Foundation.framework */; };
 		64AE2F231718630000B4F6E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F221718630000B4F6E0 /* CoreGraphics.framework */; };
@@ -26,9 +30,15 @@
 		64AE2F5317186D0300B4F6E0 /* Sincerely.framework in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F5117186CF700B4F6E0 /* Sincerely.framework */; };
 		64AE2F5517186D4600B4F6E0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F5417186D4600B4F6E0 /* CoreTelephony.framework */; };
 		64AE2F5717186D4C00B4F6E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */; };
+		64AE2F591718752200B4F6E0 /* FPPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F581718752200B4F6E0 /* FPPicker.framework */; };
+		64AE2F5B1718753400B4F6E0 /* FPPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F5A1718753400B4F6E0 /* FPPicker.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		643F04EA17187915008F1E05 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		643F04EC17187919008F1E05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		643F04EE1718791F008F1E05 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		643F04F017187924008F1E05 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		64AE2F1B1718630000B4F6E0 /* Women Who Code Sincerely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women Who Code Sincerely.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64AE2F1E1718630000B4F6E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64AE2F201718630000B4F6E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +63,8 @@
 		64AE2F5117186CF700B4F6E0 /* Sincerely.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sincerely.framework; sourceTree = "<group>"; };
 		64AE2F5417186D4600B4F6E0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		64AE2F581718752200B4F6E0 /* FPPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FPPicker.framework; path = "../../../Desktop/Filepicker-ios-f3feb17-1/library/FPPicker.framework"; sourceTree = "<group>"; };
+		64AE2F5A1718753400B4F6E0 /* FPPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FPPicker.bundle; path = "../../../Desktop/Filepicker-ios-f3feb17-1/library/FPPicker.bundle"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +72,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64AE2F231718630000B4F6E0 /* CoreGraphics.framework in Frameworks */,
+				643F04F117187924008F1E05 /* MobileCoreServices.framework in Frameworks */,
+				643F04EF1718791F008F1E05 /* CoreFoundation.framework in Frameworks */,
+				643F04ED17187919008F1E05 /* QuartzCore.framework in Frameworks */,
+				643F04EB17187915008F1E05 /* AssetsLibrary.framework in Frameworks */,
 				64AE2F5717186D4C00B4F6E0 /* SystemConfiguration.framework in Frameworks */,
 				64AE2F5517186D4600B4F6E0 /* CoreTelephony.framework in Frameworks */,
 				64AE2F4B1718662900B4F6E0 /* AddressBookUI.framework in Frameworks */,
 				64AE2F491718662400B4F6E0 /* AddressBook.framework in Frameworks */,
 				64AE2F1F1718630000B4F6E0 /* UIKit.framework in Frameworks */,
 				64AE2F211718630000B4F6E0 /* Foundation.framework in Frameworks */,
-				64AE2F231718630000B4F6E0 /* CoreGraphics.framework in Frameworks */,
 				64AE2F5217186CF700B4F6E0 /* Sincerely.framework in Frameworks */,
+				64AE2F591718752200B4F6E0 /* FPPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +113,12 @@
 		64AE2F1D1718630000B4F6E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				643F04F017187924008F1E05 /* MobileCoreServices.framework */,
+				643F04EE1718791F008F1E05 /* CoreFoundation.framework */,
+				643F04EC17187919008F1E05 /* QuartzCore.framework */,
+				643F04EA17187915008F1E05 /* AssetsLibrary.framework */,
+				64AE2F5A1718753400B4F6E0 /* FPPicker.bundle */,
+				64AE2F581718752200B4F6E0 /* FPPicker.framework */,
 				64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */,
 				64AE2F5417186D4600B4F6E0 /* CoreTelephony.framework */,
 				64AE2F5117186CF700B4F6E0 /* Sincerely.framework */,
@@ -204,6 +227,7 @@
 				64AE2F3B1718630000B4F6E0 /* WWViewController.xib in Resources */,
 				64AE2F46171865B800B4F6E0 /* README.md in Resources */,
 				64AE2F4D171867B500B4F6E0 /* computers.jpeg.png in Resources */,
+				64AE2F5B1718753400B4F6E0 /* FPPicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +328,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Desktop/Filepicker-ios-f3feb17-1/library\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Women Who Code Sincerely/Women Who Code Sincerely-Prefix.pch";
 				INFOPLIST_FILE = "Women Who Code Sincerely/Women Who Code Sincerely-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -319,10 +348,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Desktop/Filepicker-ios-f3feb17-1/library\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Women Who Code Sincerely/Women Who Code Sincerely-Prefix.pch";
 				INFOPLIST_FILE = "Women Who Code Sincerely/Women Who Code Sincerely-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -347,6 +381,7 @@
 				64AE2F401718630000B4F6E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
