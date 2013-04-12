@@ -1,5 +1,9 @@
 # Women Who Code... Sincerely
 
+Current Branch: Blank Page with Sincerely Framework added
+
+## Overview
+
 We are making an iPhone Postcard App using our sponsor's API.
 Sincerely's Ship API is highly awesome and enables you to take pictures and send physical postcards to real human beings!
 
