@@ -10,3 +10,7 @@ Meetup at Sincerely, April 12, 2013
 
 I'm going to send out an email when this is ready. Please download this code to your computer the night before or when you first arrive at Sincerely.
 
+# Helpful Links
+
+* Ship Library by Sincerely https://dev.sincerely.com/docs
+
