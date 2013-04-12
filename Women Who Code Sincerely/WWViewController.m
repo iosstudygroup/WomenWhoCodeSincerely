@@ -42,6 +42,9 @@
     }
 }
 
+- (IBAction)choosePhotoButtonPressed:(UIButton *)sender {
+}
+
 #pragma mark -
 #pragma mark - SYSincerelyControllerDelegate
 -(void)sincerelyControllerDidFinish:(SYSincerelyController *)controller {

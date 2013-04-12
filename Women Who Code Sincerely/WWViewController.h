@@ -14,5 +14,9 @@
 
 @interface WWViewController : UIViewController <SYSincerelyControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UIButton *chooseButton;
+@property (weak, nonatomic) IBOutlet UIImageView *myPhoto;
 - (IBAction)sincerelyButtonPressed:(UIButton *)sender;
+- (IBAction)choosePhotoButtonPressed:(UIButton *)sender;
+
 @end
