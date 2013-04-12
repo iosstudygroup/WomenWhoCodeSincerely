@@ -1,6 +1,7 @@
 # Women Who Code... Sincerely
 
-Current Branch: Blank Page with Sincerely Framework added
+Current Branch: This is a very basic example of Sincerely. You can
+send a Women Who Code postcard by pressing the button!
 
 ## Overview
 
