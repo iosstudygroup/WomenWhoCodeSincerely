@@ -30,5 +30,15 @@
 }
 
 - (IBAction)sincerelyButtonPressed:(UIButton *)sender {
+    
+    SYSincerelyController *sincerelyController = [[SYSincerelyController alloc] initWithImages:[NSArray arrayWithObject:[UIImage imageNamed:@"computers.jpeg.png"]]
+                                                                              product:SYProductTypePostcard
+                                                                       applicationKey:kSincerelyAPIKey
+        
+                                                                             delegate:self];
+    if (sincerelyController) {
+        [self presentViewController:sincerelyController animated:YES completion:NULL];
+    
+    }
 }
 @end
