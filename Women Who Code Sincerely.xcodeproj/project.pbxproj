@@ -18,11 +18,14 @@
 		64AE2F351718630000B4F6E0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F341718630000B4F6E0 /* Default-568h@2x.png */; };
 		64AE2F381718630000B4F6E0 /* WWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AE2F371718630000B4F6E0 /* WWViewController.m */; };
 		64AE2F3B1718630000B4F6E0 /* WWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F391718630000B4F6E0 /* WWViewController.xib */; };
-		64AE2F431718646B00B4F6E0 /* Sincerely-1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F421718646B00B4F6E0 /* Sincerely-1.framework */; };
 		64AE2F46171865B800B4F6E0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F45171865B800B4F6E0 /* README.md */; };
-		64AE2F471718661900B4F6E0 /* Sincerely-1.framework in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F421718646B00B4F6E0 /* Sincerely-1.framework */; };
 		64AE2F491718662400B4F6E0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F481718662400B4F6E0 /* AddressBook.framework */; };
 		64AE2F4B1718662900B4F6E0 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F4A1718662900B4F6E0 /* AddressBookUI.framework */; };
+		64AE2F4D171867B500B4F6E0 /* computers.jpeg.png in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F4C171867B500B4F6E0 /* computers.jpeg.png */; };
+		64AE2F5217186CF700B4F6E0 /* Sincerely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F5117186CF700B4F6E0 /* Sincerely.framework */; };
+		64AE2F5317186D0300B4F6E0 /* Sincerely.framework in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F5117186CF700B4F6E0 /* Sincerely.framework */; };
+		64AE2F5517186D4600B4F6E0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F5417186D4600B4F6E0 /* CoreTelephony.framework */; };
+		64AE2F5717186D4C00B4F6E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,10 +46,13 @@
 		64AE2F371718630000B4F6E0 /* WWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWViewController.m; sourceTree = "<group>"; };
 		64AE2F3A1718630000B4F6E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WWViewController.xib; sourceTree = "<group>"; };
 		64AE2F41171863A400B4F6E0 /* ConsumerCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumerCredentials.h; sourceTree = "<group>"; };
-		64AE2F421718646B00B4F6E0 /* Sincerely-1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Sincerely-1.framework"; sourceTree = "<group>"; };
 		64AE2F45171865B800B4F6E0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		64AE2F481718662400B4F6E0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		64AE2F4A1718662900B4F6E0 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		64AE2F4C171867B500B4F6E0 /* computers.jpeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = computers.jpeg.png; path = ../../../../Desktop/computers.jpeg.png; sourceTree = "<group>"; };
+		64AE2F5117186CF700B4F6E0 /* Sincerely.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sincerely.framework; sourceTree = "<group>"; };
+		64AE2F5417186D4600B4F6E0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64AE2F5717186D4C00B4F6E0 /* SystemConfiguration.framework in Frameworks */,
+				64AE2F5517186D4600B4F6E0 /* CoreTelephony.framework in Frameworks */,
 				64AE2F4B1718662900B4F6E0 /* AddressBookUI.framework in Frameworks */,
 				64AE2F491718662400B4F6E0 /* AddressBook.framework in Frameworks */,
 				64AE2F1F1718630000B4F6E0 /* UIKit.framework in Frameworks */,
 				64AE2F211718630000B4F6E0 /* Foundation.framework in Frameworks */,
 				64AE2F231718630000B4F6E0 /* CoreGraphics.framework in Frameworks */,
-				64AE2F431718646B00B4F6E0 /* Sincerely-1.framework in Frameworks */,
+				64AE2F5217186CF700B4F6E0 /* Sincerely.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +96,11 @@
 		64AE2F1D1718630000B4F6E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */,
+				64AE2F5417186D4600B4F6E0 /* CoreTelephony.framework */,
+				64AE2F5117186CF700B4F6E0 /* Sincerely.framework */,
 				64AE2F4A1718662900B4F6E0 /* AddressBookUI.framework */,
 				64AE2F481718662400B4F6E0 /* AddressBook.framework */,
-				64AE2F421718646B00B4F6E0 /* Sincerely-1.framework */,
 				64AE2F1E1718630000B4F6E0 /* UIKit.framework */,
 				64AE2F201718630000B4F6E0 /* Foundation.framework */,
 				64AE2F221718630000B4F6E0 /* CoreGraphics.framework */,
@@ -129,6 +139,7 @@
 		64AE2F441718658600B4F6E0 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				64AE2F4C171867B500B4F6E0 /* computers.jpeg.png */,
 			);
 			name = Pictures;
 			sourceTree = "<group>";
@@ -186,12 +197,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				64AE2F291718630000B4F6E0 /* InfoPlist.strings in Resources */,
+				64AE2F5317186D0300B4F6E0 /* Sincerely.framework in Resources */,
 				64AE2F311718630000B4F6E0 /* Default.png in Resources */,
 				64AE2F331718630000B4F6E0 /* Default@2x.png in Resources */,
 				64AE2F351718630000B4F6E0 /* Default-568h@2x.png in Resources */,
 				64AE2F3B1718630000B4F6E0 /* WWViewController.xib in Resources */,
-				64AE2F471718661900B4F6E0 /* Sincerely-1.framework in Resources */,
 				64AE2F46171865B800B4F6E0 /* README.md in Resources */,
+				64AE2F4D171867B500B4F6E0 /* computers.jpeg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

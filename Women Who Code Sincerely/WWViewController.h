@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Sincerely/Sincerely.h>
+#import <Sincerely/SincerelyConstants.h>
+#import "ConsumerCredentials.h"
 
-@interface WWViewController : UIViewController
+@interface WWViewController : UIViewController <SYSincerelyControllerDelegate>
 
+- (IBAction)sincerelyButtonPressed:(UIButton *)sender;
 @end
