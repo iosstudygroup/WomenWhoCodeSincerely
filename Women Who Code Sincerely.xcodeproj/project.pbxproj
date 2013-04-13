@@ -42,7 +42,7 @@
 		643F04EC17187919008F1E05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		643F04EE1718791F008F1E05 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		643F04F017187924008F1E05 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = WomenWhoCode.storyboard; path = "Women Who Code Sincerely/WomenWhoCode.storyboard"; sourceTree = "<group>"; };
+		643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WomenWhoCode.storyboard; sourceTree = "<group>"; };
 		64AE2F1B1718630000B4F6E0 /* Women Who Code Sincerely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women Who Code Sincerely.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64AE2F1E1718630000B4F6E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64AE2F201718630000B4F6E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,7 +59,7 @@
 		64AE2F361718630000B4F6E0 /* WWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWViewController.h; sourceTree = "<group>"; };
 		64AE2F371718630000B4F6E0 /* WWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWViewController.m; sourceTree = "<group>"; };
 		64AE2F3A1718630000B4F6E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WWViewController.xib; sourceTree = "<group>"; };
-		64AE2F41171863A400B4F6E0 /* ConsumerCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumerCredentials.h; sourceTree = "<group>"; };
+		64AE2F41171863A400B4F6E0 /* ConsumerCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsumerCredentials.h; path = ../ConsumerCredentials.h; sourceTree = "<group>"; };
 		64AE2F45171865B800B4F6E0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		64AE2F481718662400B4F6E0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		64AE2F4A1718662900B4F6E0 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
@@ -114,8 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				64AE2F45171865B800B4F6E0 /* README.md */,
-				64AE2F41171863A400B4F6E0 /* ConsumerCredentials.h */,
-				643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */,
 				64AE2F241718630000B4F6E0 /* Women Who Code Sincerely */,
 				64AE2F1D1718630000B4F6E0 /* Frameworks */,
 				64AE2F1C1718630000B4F6E0 /* Products */,
@@ -156,6 +154,8 @@
 			children = (
 				64AE2F2D1718630000B4F6E0 /* WWAppDelegate.h */,
 				64AE2F2E1718630000B4F6E0 /* WWAppDelegate.m */,
+				64AE2F41171863A400B4F6E0 /* ConsumerCredentials.h */,
+				643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */,
 				64A4BBFF171A1C0D009F1FA0 /* GUI */,
 				64AE2F441718658600B4F6E0 /* Pictures */,
 				64AE2F251718630000B4F6E0 /* Supporting Files */,

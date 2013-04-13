@@ -14,6 +14,9 @@ Sincerely's Ship API is highly awesome and enables you to take pictures and send
 http://www.meetup.com/Women-Who-Code-SF/events/113359282/
 Meetup at Sincerely, April 12, 2013
 
+### APIs Used:
+* *Sincerely iOS SDK* - https://dev.sincerely.com/docs
+* *Filepicker io SDK* - this is used to let people get to photographs that are in their Dropbox, Facebook, etc. https://developers.filepicker.io/docs/ios/
 
 # Helpful Links
 
