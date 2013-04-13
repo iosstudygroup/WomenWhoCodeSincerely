@@ -33,6 +33,8 @@
 		64AE2F5717186D4C00B4F6E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */; };
 		64AE2F591718752200B4F6E0 /* FPPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F581718752200B4F6E0 /* FPPicker.framework */; };
 		64AE2F5B1718753400B4F6E0 /* FPPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F5A1718753400B4F6E0 /* FPPicker.bundle */; };
+		64E7498A17190C0F00B3B1A1 /* sincerelyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E7498917190C0F00B3B1A1 /* sincerelyLogo.png */; };
+		64E7498D17190D8000B3B1A1 /* WWMakeMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E7498C17190D8000B3B1A1 /* WWMakeMineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,9 @@
 		64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		64AE2F581718752200B4F6E0 /* FPPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FPPicker.framework; path = "../../../Desktop/Filepicker-ios-f3feb17-1/library/FPPicker.framework"; sourceTree = "<group>"; };
 		64AE2F5A1718753400B4F6E0 /* FPPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FPPicker.bundle; path = "../../../Desktop/Filepicker-ios-f3feb17-1/library/FPPicker.bundle"; sourceTree = "<group>"; };
+		64E7498917190C0F00B3B1A1 /* sincerelyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sincerelyLogo.png; path = ../../../../Desktop/sincerelyLogo.png; sourceTree = "<group>"; };
+		64E7498B17190D8000B3B1A1 /* WWMakeMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWMakeMineViewController.h; sourceTree = "<group>"; };
+		64E7498C17190D8000B3B1A1 /* WWMakeMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWMakeMineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +98,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64A4BBFF171A1C0D009F1FA0 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				64AE2F361718630000B4F6E0 /* WWViewController.h */,
+				64AE2F371718630000B4F6E0 /* WWViewController.m */,
+				64AE2F391718630000B4F6E0 /* WWViewController.xib */,
+				64E7498B17190D8000B3B1A1 /* WWMakeMineViewController.h */,
+				64E7498C17190D8000B3B1A1 /* WWMakeMineViewController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
 		64AE2F12171862FF00B4F6E0 = {
 			isa = PBXGroup;
 			children = (
-				643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */,
 				64AE2F45171865B800B4F6E0 /* README.md */,
 				64AE2F41171863A400B4F6E0 /* ConsumerCredentials.h */,
+				643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */,
 				64AE2F241718630000B4F6E0 /* Women Who Code Sincerely */,
 				64AE2F1D1718630000B4F6E0 /* Frameworks */,
 				64AE2F1C1718630000B4F6E0 /* Products */,
@@ -139,9 +156,7 @@
 			children = (
 				64AE2F2D1718630000B4F6E0 /* WWAppDelegate.h */,
 				64AE2F2E1718630000B4F6E0 /* WWAppDelegate.m */,
-				64AE2F361718630000B4F6E0 /* WWViewController.h */,
-				64AE2F371718630000B4F6E0 /* WWViewController.m */,
-				64AE2F391718630000B4F6E0 /* WWViewController.xib */,
+				64A4BBFF171A1C0D009F1FA0 /* GUI */,
 				64AE2F441718658600B4F6E0 /* Pictures */,
 				64AE2F251718630000B4F6E0 /* Supporting Files */,
 			);
@@ -165,6 +180,7 @@
 		64AE2F441718658600B4F6E0 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				64E7498917190C0F00B3B1A1 /* sincerelyLogo.png */,
 				64AE2F4C171867B500B4F6E0 /* computers.jpeg.png */,
 			);
 			name = Pictures;
@@ -232,6 +248,7 @@
 				64AE2F4D171867B500B4F6E0 /* computers.jpeg.png in Resources */,
 				64AE2F5B1718753400B4F6E0 /* FPPicker.bundle in Resources */,
 				643F04F31718798E008F1E05 /* WomenWhoCode.storyboard in Resources */,
+				64E7498A17190C0F00B3B1A1 /* sincerelyLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +262,7 @@
 				64AE2F2B1718630000B4F6E0 /* main.m in Sources */,
 				64AE2F2F1718630000B4F6E0 /* WWAppDelegate.m in Sources */,
 				64AE2F381718630000B4F6E0 /* WWViewController.m in Sources */,
+				64E7498D17190D8000B3B1A1 /* WWMakeMineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

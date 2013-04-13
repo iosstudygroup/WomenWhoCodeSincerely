@@ -42,8 +42,6 @@
     }
 }
 
-- (IBAction)choosePhotoButtonPressed:(UIButton *)sender {
-}
 
 #pragma mark -
 #pragma mark - SYSincerelyControllerDelegate
@@ -70,5 +68,7 @@
     
     NSLog(@"Error: %@", error);
 }
+
+
 
 @end

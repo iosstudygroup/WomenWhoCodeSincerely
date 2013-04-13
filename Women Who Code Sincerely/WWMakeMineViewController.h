@@ -1,5 +1,5 @@
 //
-//  WWViewController.h
+//  WWMakeMineViewController.h
 //  Women Who Code Sincerely
 //
 //  Created by Romy on 4/12/13.
@@ -10,12 +10,13 @@
 #import <Sincerely/Sincerely.h>
 #import <Sincerely/SincerelyConstants.h>
 #import "ConsumerCredentials.h"
+#import <FPPicker/FPPicker.h>
 
 
-@interface WWViewController : UIViewController <SYSincerelyControllerDelegate>
-
+@interface WWMakeMineViewController : UIViewController <SYSincerelyControllerDelegate, FPPickerDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *chooseButton;
+@property (weak, nonatomic) IBOutlet UIButton *makePostCard;
 @property (weak, nonatomic) IBOutlet UIImageView *myPhoto;
 - (IBAction)sincerelyButtonPressed:(UIButton *)sender;
-
+- (IBAction)choosePhotoButtonPressed:(UIButton *)sender;
 @end
