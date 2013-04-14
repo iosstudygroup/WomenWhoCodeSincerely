@@ -7,6 +7,7 @@
 //
 
 #import "WWMakeMineViewController.h"
+#import "AFPhotoEditorController.h"
 
 @interface WWFilterViewController : WWMakeMineViewController
 

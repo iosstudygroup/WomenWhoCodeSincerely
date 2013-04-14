@@ -37,6 +37,15 @@
 		64AE2F5717186D4C00B4F6E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */; };
 		64AE2F591718752200B4F6E0 /* FPPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F581718752200B4F6E0 /* FPPicker.framework */; };
 		64AE2F5B1718753400B4F6E0 /* FPPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F5A1718753400B4F6E0 /* FPPicker.bundle */; };
+		64CB0FAA171B1FE500C4602F /* libAviarySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FA7171B1FE500C4602F /* libAviarySDK.a */; };
+		64CB0FAB171B1FE500C4602F /* AviarySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64CB0FA9171B1FE500C4602F /* AviarySDKResources.bundle */; };
+		64CB0FAD171B201200C4602F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FAC171B201200C4602F /* Accelerate.framework */; };
+		64CB0FAF171B201900C4602F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FAE171B201900C4602F /* CoreData.framework */; };
+		64CB0FB1171B202400C4602F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FB0171B202400C4602F /* CoreText.framework */; };
+		64CB0FB3171B202F00C4602F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FB2171B202F00C4602F /* libsqlite3.0.dylib */; };
+		64CB0FB5171B203500C4602F /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FB4171B203500C4602F /* libz.1.2.5.dylib */; };
+		64CB0FB7171B203A00C4602F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FB6171B203A00C4602F /* OpenGLES.framework */; };
+		64CB0FB9171B204600C4602F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FB8171B204600C4602F /* StoreKit.framework */; };
 		64E7498A17190C0F00B3B1A1 /* sincerelyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E7498917190C0F00B3B1A1 /* sincerelyLogo.png */; };
 		64E7498D17190D8000B3B1A1 /* WWMakeMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E7498C17190D8000B3B1A1 /* WWMakeMineViewController.m */; };
 /* End PBXBuildFile section */
@@ -78,6 +87,21 @@
 		64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		64AE2F581718752200B4F6E0 /* FPPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FPPicker.framework; path = "../../../Desktop/Filepicker-ios-f3feb17-1/library/FPPicker.framework"; sourceTree = "<group>"; };
 		64AE2F5A1718753400B4F6E0 /* FPPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FPPicker.bundle; path = "../../../Desktop/Filepicker-ios-f3feb17-1/library/FPPicker.bundle"; sourceTree = "<group>"; };
+		64CB0FA1171B1FE500C4602F /* AFPhotoEditorContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorContext.h; sourceTree = "<group>"; };
+		64CB0FA2171B1FE500C4602F /* AFPhotoEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorController.h; sourceTree = "<group>"; };
+		64CB0FA3171B1FE500C4602F /* AFPhotoEditorControllerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorControllerOptions.h; sourceTree = "<group>"; };
+		64CB0FA4171B1FE500C4602F /* AFPhotoEditorCustomization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorCustomization.h; sourceTree = "<group>"; };
+		64CB0FA5171B1FE500C4602F /* AFPhotoEditorSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorSession.h; sourceTree = "<group>"; };
+		64CB0FA6171B1FE500C4602F /* AFPhotoEditorStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorStyle.h; sourceTree = "<group>"; };
+		64CB0FA7171B1FE500C4602F /* libAviarySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAviarySDK.a; sourceTree = "<group>"; };
+		64CB0FA9171B1FE500C4602F /* AviarySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AviarySDKResources.bundle; sourceTree = "<group>"; };
+		64CB0FAC171B201200C4602F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		64CB0FAE171B201900C4602F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		64CB0FB0171B202400C4602F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		64CB0FB2171B202F00C4602F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		64CB0FB4171B203500C4602F /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		64CB0FB6171B203A00C4602F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		64CB0FB8171B204600C4602F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		64E7498917190C0F00B3B1A1 /* sincerelyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sincerelyLogo.png; path = ../../../../Desktop/sincerelyLogo.png; sourceTree = "<group>"; };
 		64E7498B17190D8000B3B1A1 /* WWMakeMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWMakeMineViewController.h; sourceTree = "<group>"; };
 		64E7498C17190D8000B3B1A1 /* WWMakeMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWMakeMineViewController.m; sourceTree = "<group>"; };
@@ -88,10 +112,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64CB0FB9171B204600C4602F /* StoreKit.framework in Frameworks */,
+				643F04ED17187919008F1E05 /* QuartzCore.framework in Frameworks */,
+				64CB0FB7171B203A00C4602F /* OpenGLES.framework in Frameworks */,
+				64CB0FB5171B203500C4602F /* libz.1.2.5.dylib in Frameworks */,
+				64CB0FB3171B202F00C4602F /* libsqlite3.0.dylib in Frameworks */,
+				64CB0FB1171B202400C4602F /* CoreText.framework in Frameworks */,
+				64CB0FAF171B201900C4602F /* CoreData.framework in Frameworks */,
+				64CB0FAD171B201200C4602F /* Accelerate.framework in Frameworks */,
 				64AE2F231718630000B4F6E0 /* CoreGraphics.framework in Frameworks */,
 				643F04F117187924008F1E05 /* MobileCoreServices.framework in Frameworks */,
 				643F04EF1718791F008F1E05 /* CoreFoundation.framework in Frameworks */,
-				643F04ED17187919008F1E05 /* QuartzCore.framework in Frameworks */,
 				643F04EB17187915008F1E05 /* AssetsLibrary.framework in Frameworks */,
 				64AE2F5717186D4C00B4F6E0 /* SystemConfiguration.framework in Frameworks */,
 				64AE2F5517186D4600B4F6E0 /* CoreTelephony.framework in Frameworks */,
@@ -101,6 +132,7 @@
 				64AE2F211718630000B4F6E0 /* Foundation.framework in Frameworks */,
 				64AE2F5217186CF700B4F6E0 /* Sincerely.framework in Frameworks */,
 				64AE2F591718752200B4F6E0 /* FPPicker.framework in Frameworks */,
+				64CB0FAA171B1FE500C4602F /* libAviarySDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +175,14 @@
 		64AE2F1D1718630000B4F6E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64CB0FB8171B204600C4602F /* StoreKit.framework */,
+				64CB0FB6171B203A00C4602F /* OpenGLES.framework */,
+				64CB0FB4171B203500C4602F /* libz.1.2.5.dylib */,
+				64CB0FB2171B202F00C4602F /* libsqlite3.0.dylib */,
+				64CB0FB0171B202400C4602F /* CoreText.framework */,
+				64CB0FAE171B201900C4602F /* CoreData.framework */,
+				64CB0FAC171B201200C4602F /* Accelerate.framework */,
+				64CB0F9F171B1FE500C4602F /* AviarySDK */,
 				643F04F017187924008F1E05 /* MobileCoreServices.framework */,
 				643F04EE1718791F008F1E05 /* CoreFoundation.framework */,
 				643F04EC17187919008F1E05 /* QuartzCore.framework */,
@@ -198,6 +238,37 @@
 				64AE2F4C171867B500B4F6E0 /* computers.jpeg.png */,
 			);
 			name = Pictures;
+			sourceTree = "<group>";
+		};
+		64CB0F9F171B1FE500C4602F /* AviarySDK */ = {
+			isa = PBXGroup;
+			children = (
+				64CB0FA0171B1FE500C4602F /* Headers */,
+				64CB0FA7171B1FE500C4602F /* libAviarySDK.a */,
+				64CB0FA8171B1FE500C4602F /* Resources */,
+			);
+			path = AviarySDK;
+			sourceTree = "<group>";
+		};
+		64CB0FA0171B1FE500C4602F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				64CB0FA1171B1FE500C4602F /* AFPhotoEditorContext.h */,
+				64CB0FA2171B1FE500C4602F /* AFPhotoEditorController.h */,
+				64CB0FA3171B1FE500C4602F /* AFPhotoEditorControllerOptions.h */,
+				64CB0FA4171B1FE500C4602F /* AFPhotoEditorCustomization.h */,
+				64CB0FA5171B1FE500C4602F /* AFPhotoEditorSession.h */,
+				64CB0FA6171B1FE500C4602F /* AFPhotoEditorStyle.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		64CB0FA8171B1FE500C4602F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64CB0FA9171B1FE500C4602F /* AviarySDKResources.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +337,7 @@
 				64A4BC01171A2987009F1FA0 /* videoplayer.png in Resources */,
 				64A4BC03171A2B01009F1FA0 /* button-red-normal_s1.png in Resources */,
 				648F2896171B189A00883240 /* WWFilterViewController.xib in Resources */,
+				64CB0FAB171B1FE500C4602F /* AviarySDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +445,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Women Who Code Sincerely/Women Who Code Sincerely-Prefix.pch";
 				INFOPLIST_FILE = "Women Who Code Sincerely/Women Who Code Sincerely-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AviarySDK\"",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -393,6 +469,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Women Who Code Sincerely/Women Who Code Sincerely-Prefix.pch";
 				INFOPLIST_FILE = "Women Who Code Sincerely/Women Who Code Sincerely-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AviarySDK\"",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",

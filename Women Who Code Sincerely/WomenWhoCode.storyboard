@@ -252,7 +252,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wWS-Qe-eYe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1119" y="312"/>
+            <point key="canvasLocation" x="1125" y="324"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xXk-dB-dbq">
@@ -363,32 +363,6 @@
         <image name="sincerelyLogo.png" width="345" height="105"/>
         <image name="videoplayer.png" width="512" height="443"/>
     </resources>
-    <classes>
-        <class className="WWFilterViewController" superclassName="WWMakeMineViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WWFilterViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="getPhoto:" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="WWMakeMineViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WWMakeMineViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="choosePhotoButtonPressed:" candidateClass="UIButton"/>
-                <relationship kind="action" name="sincerelyButtonPressed:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="chooseButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="makePostCard" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="myPhoto" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="WWViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WWViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="sincerelyButtonPressed:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="chooseButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="myPhoto" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
