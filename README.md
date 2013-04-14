@@ -5,7 +5,9 @@
 
 ## Current Branch
 
-Choose a file from your dropbox/facebook/etc account and print it out & send in real life!
+* Choose a file from one of your social network/filesharing accounts using Filepicker.io (Dropbox, Facebook, etc)
+* Add text, filter to the image using the Aviary SDK
+* Print out the picture as a real-life postcard using Sincerely
 
 ## Overview
 
