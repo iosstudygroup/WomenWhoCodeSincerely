@@ -12,6 +12,8 @@
 		643F04EF1718791F008F1E05 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04EE1718791F008F1E05 /* CoreFoundation.framework */; };
 		643F04F117187924008F1E05 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04F017187924008F1E05 /* MobileCoreServices.framework */; };
 		643F04F31718798E008F1E05 /* WomenWhoCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */; };
+		648F2895171B189A00883240 /* WWFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F2893171B189A00883240 /* WWFilterViewController.m */; };
+		648F2896171B189A00883240 /* WWFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 648F2894171B189A00883240 /* WWFilterViewController.xib */; };
 		64A4BC01171A2987009F1FA0 /* videoplayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A4BC00171A2987009F1FA0 /* videoplayer.png */; };
 		64A4BC03171A2B01009F1FA0 /* button-red-normal_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A4BC02171A2B01009F1FA0 /* button-red-normal_s1.png */; };
 		64AE2F1F1718630000B4F6E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F1E1718630000B4F6E0 /* UIKit.framework */; };
@@ -45,6 +47,9 @@
 		643F04EE1718791F008F1E05 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		643F04F017187924008F1E05 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WomenWhoCode.storyboard; sourceTree = "<group>"; };
+		648F2892171B189A00883240 /* WWFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFilterViewController.h; sourceTree = "<group>"; };
+		648F2893171B189A00883240 /* WWFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFilterViewController.m; sourceTree = "<group>"; };
+		648F2894171B189A00883240 /* WWFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWFilterViewController.xib; sourceTree = "<group>"; };
 		64A4BC00171A2987009F1FA0 /* videoplayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = videoplayer.png; path = "../../../../Pictures/UX/UX-iOS/videoplayer.png"; sourceTree = "<group>"; };
 		64A4BC02171A2B01009F1FA0 /* button-red-normal_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-red-normal_s1.png"; path = "../../../../Pictures/UX/UX-iOS/button-red-normal_s1.png"; sourceTree = "<group>"; };
 		64AE2F1B1718630000B4F6E0 /* Women Who Code Sincerely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women Who Code Sincerely.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +115,9 @@
 				64AE2F391718630000B4F6E0 /* WWViewController.xib */,
 				64E7498B17190D8000B3B1A1 /* WWMakeMineViewController.h */,
 				64E7498C17190D8000B3B1A1 /* WWMakeMineViewController.m */,
+				648F2892171B189A00883240 /* WWFilterViewController.h */,
+				648F2893171B189A00883240 /* WWFilterViewController.m */,
+				648F2894171B189A00883240 /* WWFilterViewController.xib */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -257,6 +265,7 @@
 				64E7498A17190C0F00B3B1A1 /* sincerelyLogo.png in Resources */,
 				64A4BC01171A2987009F1FA0 /* videoplayer.png in Resources */,
 				64A4BC03171A2B01009F1FA0 /* button-red-normal_s1.png in Resources */,
+				648F2896171B189A00883240 /* WWFilterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +280,7 @@
 				64AE2F2F1718630000B4F6E0 /* WWAppDelegate.m in Sources */,
 				64AE2F381718630000B4F6E0 /* WWViewController.m in Sources */,
 				64E7498D17190D8000B3B1A1 /* WWMakeMineViewController.m in Sources */,
+				648F2895171B189A00883240 /* WWFilterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
