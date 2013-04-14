@@ -10,7 +10,7 @@
 
 
 @interface WWFilterViewController ()
--(BOOL)hasValidAPIKey;
+
 @end
 
 @implementation WWFilterViewController
@@ -37,9 +37,11 @@
 }
 
 - (IBAction)editButtonPressed:(UIButton *)sender {
-    AFPhotoEditorController *editorController = [[AFPhotoEditorController alloc] initWithImage:self.myPhoto.image];
-    [editorController setDelegate:self];
-    [self presentViewController:editorController animated:YES completion:nil];
+    if([self hasValidAviaryAPIKey]) {
+        AFPhotoEditorController *editorController = [[AFPhotoEditorController alloc] initWithImage:self.myPhoto.image];
+        [editorController setDelegate:self];
+        [self presentViewController:editorController animated:YES completion:nil];
+    }
 }
 
 #pragma mark -
@@ -57,11 +59,12 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+/*
 #pragma mark -
 #pragma mark - Private Helper Methods
--(BOOL)hasValidAPIKey {
+-(BOOL)hasValidAviaryAPIKey {
     NSString *key = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Aviary-API-Key"];
-    if ([key isEqualToString:@"<YOUR_API_KEY"]) {
+    if ([key isEqualToString:@"<YOUR_API_KEY>"]) {
         [[[UIAlertView alloc] initWithTitle:@"Oops!"
                                     message:@"You forgot to add your API Key!"
                                    delegate:nil
@@ -72,5 +75,18 @@
     return YES;
 }
 
+-(BOOL)hasValidFilepickerAPIKey {
+    NSString *key = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Filepicker API Key"];
+    if([key isEqualToString:@"<YOUR_API_KEY>"]) {
+        [[[UIAlertView alloc] initWithTitle:@"Oops!"
+                                    message:@"You forgot to add your Filepicker API Key"
+                                   delegate:nil
+                          cancelButtonTitle:@"OK"
+                          otherButtonTitles: nil] show];
+        return NO;
+    }
+    return YES;
+}
+*/
 
 @end

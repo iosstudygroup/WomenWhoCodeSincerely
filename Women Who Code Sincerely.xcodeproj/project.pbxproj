@@ -12,6 +12,7 @@
 		643F04EF1718791F008F1E05 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04EE1718791F008F1E05 /* CoreFoundation.framework */; };
 		643F04F117187924008F1E05 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04F017187924008F1E05 /* MobileCoreServices.framework */; };
 		643F04F31718798E008F1E05 /* WomenWhoCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */; };
+		644E3740171B53E1004048CA /* UIViewController+APIKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 644E373F171B53E1004048CA /* UIViewController+APIKeys.m */; };
 		648F2895171B189A00883240 /* WWFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F2893171B189A00883240 /* WWFilterViewController.m */; };
 		648F2896171B189A00883240 /* WWFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 648F2894171B189A00883240 /* WWFilterViewController.xib */; };
 		64A4BC01171A2987009F1FA0 /* videoplayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A4BC00171A2987009F1FA0 /* videoplayer.png */; };
@@ -56,6 +57,8 @@
 		643F04EE1718791F008F1E05 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		643F04F017187924008F1E05 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WomenWhoCode.storyboard; sourceTree = "<group>"; };
+		644E373E171B53E1004048CA /* UIViewController+APIKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+APIKeys.h"; sourceTree = "<group>"; };
+		644E373F171B53E1004048CA /* UIViewController+APIKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APIKeys.m"; sourceTree = "<group>"; };
 		648F2892171B189A00883240 /* WWFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFilterViewController.h; sourceTree = "<group>"; };
 		648F2893171B189A00883240 /* WWFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFilterViewController.m; sourceTree = "<group>"; };
 		648F2894171B189A00883240 /* WWFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWFilterViewController.xib; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 				64E7498C17190D8000B3B1A1 /* WWMakeMineViewController.m */,
 				648F2892171B189A00883240 /* WWFilterViewController.h */,
 				648F2893171B189A00883240 /* WWFilterViewController.m */,
+				644E373E171B53E1004048CA /* UIViewController+APIKeys.h */,
+				644E373F171B53E1004048CA /* UIViewController+APIKeys.m */,
 				648F2894171B189A00883240 /* WWFilterViewController.xib */,
 			);
 			name = GUI;
@@ -353,6 +358,7 @@
 				64AE2F381718630000B4F6E0 /* WWViewController.m in Sources */,
 				64E7498D17190D8000B3B1A1 /* WWMakeMineViewController.m in Sources */,
 				648F2895171B189A00883240 /* WWFilterViewController.m in Sources */,
+				644E3740171B53E1004048CA /* UIViewController+APIKeys.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
