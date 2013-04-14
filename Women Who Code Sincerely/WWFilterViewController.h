@@ -9,8 +9,8 @@
 #import "WWMakeMineViewController.h"
 #import "AFPhotoEditorController.h"
 
-@interface WWFilterViewController : WWMakeMineViewController
+@interface WWFilterViewController : WWMakeMineViewController <AFPhotoEditorControllerDelegate>
 
--(IBAction)getPhoto:(UIButton *)button;
+- (IBAction)editButtonPressed:(UIButton *)sender;
 
 @end
