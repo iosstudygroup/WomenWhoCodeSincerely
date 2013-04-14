@@ -12,6 +12,8 @@
 		643F04EF1718791F008F1E05 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04EE1718791F008F1E05 /* CoreFoundation.framework */; };
 		643F04F117187924008F1E05 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04F017187924008F1E05 /* MobileCoreServices.framework */; };
 		643F04F31718798E008F1E05 /* WomenWhoCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */; };
+		64A4BC01171A2987009F1FA0 /* videoplayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A4BC00171A2987009F1FA0 /* videoplayer.png */; };
+		64A4BC03171A2B01009F1FA0 /* button-red-normal_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A4BC02171A2B01009F1FA0 /* button-red-normal_s1.png */; };
 		64AE2F1F1718630000B4F6E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F1E1718630000B4F6E0 /* UIKit.framework */; };
 		64AE2F211718630000B4F6E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F201718630000B4F6E0 /* Foundation.framework */; };
 		64AE2F231718630000B4F6E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F221718630000B4F6E0 /* CoreGraphics.framework */; };
@@ -43,6 +45,8 @@
 		643F04EE1718791F008F1E05 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		643F04F017187924008F1E05 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WomenWhoCode.storyboard; sourceTree = "<group>"; };
+		64A4BC00171A2987009F1FA0 /* videoplayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = videoplayer.png; path = "../../../../Pictures/UX/UX-iOS/videoplayer.png"; sourceTree = "<group>"; };
+		64A4BC02171A2B01009F1FA0 /* button-red-normal_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-red-normal_s1.png"; path = "../../../../Pictures/UX/UX-iOS/button-red-normal_s1.png"; sourceTree = "<group>"; };
 		64AE2F1B1718630000B4F6E0 /* Women Who Code Sincerely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women Who Code Sincerely.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64AE2F1E1718630000B4F6E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64AE2F201718630000B4F6E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -180,6 +184,8 @@
 		64AE2F441718658600B4F6E0 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				64A4BC02171A2B01009F1FA0 /* button-red-normal_s1.png */,
+				64A4BC00171A2987009F1FA0 /* videoplayer.png */,
 				64E7498917190C0F00B3B1A1 /* sincerelyLogo.png */,
 				64AE2F4C171867B500B4F6E0 /* computers.jpeg.png */,
 			);
@@ -249,6 +255,8 @@
 				64AE2F5B1718753400B4F6E0 /* FPPicker.bundle in Resources */,
 				643F04F31718798E008F1E05 /* WomenWhoCode.storyboard in Resources */,
 				64E7498A17190C0F00B3B1A1 /* sincerelyLogo.png in Resources */,
+				64A4BC01171A2987009F1FA0 /* videoplayer.png in Resources */,
+				64A4BC03171A2B01009F1FA0 /* button-red-normal_s1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
