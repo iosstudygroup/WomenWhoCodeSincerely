@@ -11,11 +11,11 @@ Sincerely's Ship API is highly awesome and enables you to take pictures and send
 
 1. Click on the ZIP download button & save the file to your desktop
 
-![Download](https://github.com/iosstudygroup/WomenWhoCodeSincerely/blob/01Start/Screenshots/download1.png)
+![Download](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/download1.png)
 
-2. Unzip and open Women Who Code Sincerely.xcodeproj
+2. Unzip and open **_Women Who Code Sincerely.xcodeproj_**
 
-[Open Xcode](https://github.com/iosstudygroup/WomenWhoCodeSincerely/blob/01Start/Screenshots/screen2.png)
+[Open Xcode](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/screen2.png)
 
 
 
