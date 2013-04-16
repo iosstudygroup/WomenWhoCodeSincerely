@@ -19,9 +19,6 @@
 		643F04EF1718791F008F1E05 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04EE1718791F008F1E05 /* CoreFoundation.framework */; };
 		643F04F117187924008F1E05 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04F017187924008F1E05 /* MobileCoreServices.framework */; };
 		643F04F31718798E008F1E05 /* WomenWhoCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */; };
-		644E3740171B53E1004048CA /* UIViewController+APIKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 644E373F171B53E1004048CA /* UIViewController+APIKeys.m */; };
-		648F2895171B189A00883240 /* WWFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648F2893171B189A00883240 /* WWFilterViewController.m */; };
-		648F2896171B189A00883240 /* WWFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 648F2894171B189A00883240 /* WWFilterViewController.xib */; };
 		64A4BC01171A2987009F1FA0 /* videoplayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A4BC00171A2987009F1FA0 /* videoplayer.png */; };
 		64A4BC03171A2B01009F1FA0 /* button-red-normal_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A4BC02171A2B01009F1FA0 /* button-red-normal_s1.png */; };
 		64AE2F1F1718630000B4F6E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F1E1718630000B4F6E0 /* UIKit.framework */; };
@@ -51,7 +48,6 @@
 		64CB0FB5171B203500C4602F /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FB4171B203500C4602F /* libz.1.2.5.dylib */; };
 		64CB0FB7171B203A00C4602F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FB6171B203A00C4602F /* OpenGLES.framework */; };
 		64CB0FB9171B204600C4602F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FB8171B204600C4602F /* StoreKit.framework */; };
-		64E7498D17190D8000B3B1A1 /* WWMakeMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E7498C17190D8000B3B1A1 /* WWMakeMineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,11 +63,8 @@
 		643F04EE1718791F008F1E05 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		643F04F017187924008F1E05 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		643F04F21718798E008F1E05 /* WomenWhoCode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WomenWhoCode.storyboard; sourceTree = "<group>"; };
-		644E373E171B53E1004048CA /* UIViewController+APIKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+APIKeys.h"; sourceTree = "<group>"; };
-		644E373F171B53E1004048CA /* UIViewController+APIKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APIKeys.m"; sourceTree = "<group>"; };
-		648F2892171B189A00883240 /* WWFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFilterViewController.h; sourceTree = "<group>"; };
-		648F2893171B189A00883240 /* WWFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFilterViewController.m; sourceTree = "<group>"; };
-		648F2894171B189A00883240 /* WWFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWFilterViewController.xib; sourceTree = "<group>"; };
+		644E373E171B53E1004048CA /* UIViewController+APIKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+APIKeys.h"; path = "/Users/ryanilano/Developer/wwcode/Women Who Code Sincerely/Women Who Code Sincerely/UIViewController+APIKeys.h"; sourceTree = "<absolute>"; };
+		644E373F171B53E1004048CA /* UIViewController+APIKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+APIKeys.m"; path = "/Users/ryanilano/Developer/wwcode/Women Who Code Sincerely/Women Who Code Sincerely/UIViewController+APIKeys.m"; sourceTree = "<absolute>"; };
 		64A4BC00171A2987009F1FA0 /* videoplayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = videoplayer.png; path = "../../../../Pictures/UX/UX-iOS/videoplayer.png"; sourceTree = "<group>"; };
 		64A4BC02171A2B01009F1FA0 /* button-red-normal_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-red-normal_s1.png"; path = "../../../../Pictures/UX/UX-iOS/button-red-normal_s1.png"; sourceTree = "<group>"; };
 		64AE2F1B1718630000B4F6E0 /* Women Who Code Sincerely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women Who Code Sincerely.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,8 +105,6 @@
 		64CB0FB4171B203500C4602F /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		64CB0FB6171B203A00C4602F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		64CB0FB8171B204600C4602F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		64E7498B17190D8000B3B1A1 /* WWMakeMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWMakeMineViewController.h; sourceTree = "<group>"; };
-		64E7498C17190D8000B3B1A1 /* WWMakeMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWMakeMineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +142,6 @@
 		641943B3171CF4A6003843F3 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				644E373E171B53E1004048CA /* UIViewController+APIKeys.h */,
-				644E373F171B53E1004048CA /* UIViewController+APIKeys.m */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -163,13 +152,8 @@
 				64AE2F361718630000B4F6E0 /* WWViewController.h */,
 				64AE2F371718630000B4F6E0 /* WWViewController.m */,
 				64AE2F391718630000B4F6E0 /* WWViewController.xib */,
-				64E7498B17190D8000B3B1A1 /* WWMakeMineViewController.h */,
-				64E7498C17190D8000B3B1A1 /* WWMakeMineViewController.m */,
-				648F2892171B189A00883240 /* WWFilterViewController.h */,
-				648F2893171B189A00883240 /* WWFilterViewController.m */,
 				644E373E171B53E1004048CA /* UIViewController+APIKeys.h */,
 				644E373F171B53E1004048CA /* UIViewController+APIKeys.m */,
-				648F2894171B189A00883240 /* WWFilterViewController.xib */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -239,6 +223,8 @@
 		64AE2F251718630000B4F6E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				644E373E171B53E1004048CA /* UIViewController+APIKeys.h */,
+				644E373F171B53E1004048CA /* UIViewController+APIKeys.m */,
 				64AE2F261718630000B4F6E0 /* Women Who Code Sincerely-Info.plist */,
 				64AE2F271718630000B4F6E0 /* InfoPlist.strings */,
 				64AE2F2A1718630000B4F6E0 /* main.m */,
@@ -357,7 +343,6 @@
 				643F04F31718798E008F1E05 /* WomenWhoCode.storyboard in Resources */,
 				64A4BC01171A2987009F1FA0 /* videoplayer.png in Resources */,
 				64A4BC03171A2B01009F1FA0 /* button-red-normal_s1.png in Resources */,
-				648F2896171B189A00883240 /* WWFilterViewController.xib in Resources */,
 				64CB0FAB171B1FE500C4602F /* AviarySDKResources.bundle in Resources */,
 				641943AE171CF396003843F3 /* wwcode-computerGirls.png in Resources */,
 				641943B0171CF43A003843F3 /* wwcode-computerGirls2.png in Resources */,
@@ -378,9 +363,6 @@
 				64AE2F2B1718630000B4F6E0 /* main.m in Sources */,
 				64AE2F2F1718630000B4F6E0 /* WWAppDelegate.m in Sources */,
 				64AE2F381718630000B4F6E0 /* WWViewController.m in Sources */,
-				64E7498D17190D8000B3B1A1 /* WWMakeMineViewController.m in Sources */,
-				648F2895171B189A00883240 /* WWFilterViewController.m in Sources */,
-				644E3740171B53E1004048CA /* UIViewController+APIKeys.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
