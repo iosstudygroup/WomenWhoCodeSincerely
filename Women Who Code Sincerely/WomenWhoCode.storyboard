@@ -151,7 +151,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qZh-yl-T9Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="153" y="-837"/>
+            <point key="canvasLocation" x="889" y="-933"/>
         </scene>
         <!--Make Mine View Controller - Make a Postcard-->
         <scene sceneID="dTW-BD-hcR">
@@ -272,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wWS-Qe-eYe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="577" y="-848"/>
+            <point key="canvasLocation" x="1209" y="-944"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xXk-dB-dbq">
@@ -294,7 +294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UdB-j9-mZT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="980" y="-848"/>
+            <point key="canvasLocation" x="1612" y="-944"/>
         </scene>
         <!--View Controller - Women Who Code-->
         <scene sceneID="G33-DI-KDa">
@@ -422,7 +422,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="NhH-pk-ofp"/>
         <segue reference="7ht-BW-4Nu"/>
+        <segue reference="NhH-pk-ofp"/>
     </inferredMetricsTieBreakers>
 </document>
