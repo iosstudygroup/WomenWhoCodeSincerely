@@ -42,6 +42,16 @@
     }
 }
 
+- (IBAction)takePictureBtnPressed:(UIButton *)sender {
+    
+    _imagePickerController.sourceType=UIImagePickerControllerCameraDeviceFront;
+    
+    // If you want to get the picture from the photo gallery instead
+    // _imagePickerController.sourceType=UIImagePickerControllerSourceTypePhotoLibrary;
+    // _imagePickerController.sourceType=UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+    
+}
+
 
 #pragma mark -
 #pragma mark - SYSincerelyControllerDelegate
