@@ -12,10 +12,13 @@
 #import "ConsumerCredentials.h"
 
 
-@interface WWViewController : UIViewController <SYSincerelyControllerDelegate>
+@interface WWViewController : UIViewController <SYSincerelyControllerDelegate, UIImagePickerControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton *chooseButton;
 @property (weak, nonatomic) IBOutlet UIImageView *myPhoto;
+@property (strong, nonatomic) UIImagePickerController *imagePickerController;
+
 - (IBAction)sincerelyButtonPressed:(UIButton *)sender;
+- (IBAction)takePictureBtnPressed:(UIButton *)sender;
 
 @end
