@@ -7,15 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Sincerely/Sincerely.h>
-#import <Sincerely/SincerelyConstants.h>
-#import "ConsumerCredentials.h"
 
 
-@interface WWViewController : UIViewController <SYSincerelyControllerDelegate>
 
-@property (weak, nonatomic) IBOutlet UIButton *chooseButton;
-@property (weak, nonatomic) IBOutlet UIImageView *myPhoto;
-- (IBAction)sincerelyButtonPressed:(UIButton *)sender;
+@interface WWViewController : UIViewController 
+
+
 
 @end
