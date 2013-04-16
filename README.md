@@ -9,9 +9,17 @@ Sincerely's Ship API is highly awesome and enables you to take pictures and send
 
 # Instructions
 
+1. Click on the ZIP download button & save the file to your desktop
+
+![Download](https://github.com/iosstudygroup/WomenWhoCodeSincerely/blob/01Start/Screenshots/download1.png)
+
+2. Unzip and open Women Who Code Sincerely.xcodeproj
+
+[Open Xcode](https://github.com/iosstudygroup/WomenWhoCodeSincerely/blob/01Start/Screenshots/screen2.png)
 
 
-### ConsumerCredentials.h
+
+ ConsumerCredentials.h
 
 * Create a file named ConsumerCredentials.h
 * Add API keys for these constants like so:
