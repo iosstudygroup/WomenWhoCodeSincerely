@@ -37,9 +37,13 @@ Sincerely's Ship API is highly awesome and enables you to take pictures and send
 
 ![Storyboard screenshot](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/storyboard.png)
  
+## Add a button and an imageview to the WWViewController in the storyboard
+
+![Storyboard screenshot](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/storyboard2.png)
 
 
-## Details
+
+# Details
 
 
 http://www.meetup.com/Women-Who-Code-SF/events/113359282/
@@ -47,11 +51,11 @@ Meetup at Sincerely, April 12, 2013
 
 Thank you!
 
-### APIs Used
+#### APIs Used
 
 * Ship Library by Sincerely https://dev.sincerely.com/docs
 
-### Links
+#### Links
 
 * [Women Who Code iOS Group Wiki](https://github.com/iosstudygroup/WomenWhoCodeSincerely/wiki/Women-Who-Code-iOS-Study-Group)
 * [Meetup Group: Women Who Code SF](http://www.meetup.com/Women-Who-Code-SF/)
