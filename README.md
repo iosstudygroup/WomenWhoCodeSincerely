@@ -13,11 +13,7 @@ This is a work in progress. Branches will be structured to follow a logical less
 
 ## Current Branch
 
-* Choose a file from one of your social network/filesharing accounts using Filepicker.io (Dropbox, Facebook, etc)
-* Add text, filter to the image using the Aviary SDK
-* Print out the picture as a real-life postcard using Sincerely
-
-![iPhone app](http://photos4.meetupstatic.com/photos/event/b/6/6/e/event_224806702.jpeg)
+This is the blank slate - download this before class starts.
 
 
 ### ConsumerCredentials.h
