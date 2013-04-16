@@ -29,21 +29,11 @@ Sincerely's Ship API is highly awesome and enables you to take pictures and send
 
 ![name file](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/consumercredentials.png)
 
+6. Type `#define kSincerelyAPIKey @""`  We are going to enter the secret Sincerely API key during our workshop.
 
+![key](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/consumercredentials2.png)
 
  
-
- ConsumerCredentials.h
-
-* Create a file named ConsumerCredentials.h
-* Add API keys for these constants like so:
-
-                #define kSincerelyAPIKey @"stuff"
-
-                #define kFilepickerAPIKey @"stuff"
-
-
-* plist - add the API keys for filepicker and Aviary
 
 
 ## Details
