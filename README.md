@@ -17,7 +17,21 @@ Sincerely's Ship API is highly awesome and enables you to take pictures and send
 
 ![Open Xcode](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/screen2.png)
 
-3. In XCode select File > Open 
+3. We will create a file that has the secret keys for Sincerely. In XCode select **File > New > File** 
+
+![Create New ConsumerCredentials.h File](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/createFile.png)
+
+4. Choose a Template for your new file: - select **other** in the left menu and **empty** then **Next**
+
+![new template](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/createEmpty.png)
+
+5. Name your file ConsumerCredentials.h 
+
+![name file](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/consumercredentials.png)
+
+
+
+ 
 
  ConsumerCredentials.h
 
