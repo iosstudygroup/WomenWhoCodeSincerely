@@ -7,6 +7,7 @@
 //
 
 #import "WWMakeMineViewController.h"
+#import "UIViewController+APIKeys.h"
 
 @interface WWMakeMineViewController ()
 
@@ -38,7 +39,9 @@
 #pragma mark - IBAction Methods
 
 -(IBAction)sincerelyButtonPressed:(UIButton *)sender {
+    
     if(_myPhoto.image) {
+        
         SYSincerelyController *sincerelyController = [[SYSincerelyController alloc]
                                                       initWithImages:[NSArray arrayWithObject:_myPhoto.image]
                                                                                            product:SYProductTypePostcard
@@ -61,24 +64,25 @@
  }
 
 -(IBAction)choosePhotoButtonPressed:(UIButton *)sender {
-    FPPickerController *fpController =[[FPPickerController alloc] init];
-    fpController.fpdelegate=self;
-    fpController.dataTypes=[NSArray arrayWithObjects:@"image/*", nil];
-    //fpController.dataTypes = [NSArray arrayWithObjects:@"image/*", @"video/quicktime", nil];
-    /*
-     * Select and order the sources (Optional) Default is all sources
-     */
-    //fpController.sourceNames = [[NSArray alloc] initWithObjects: FPSourceImagesearch, nil];
-    
-    /*
-     * Display it.
-     */
-    
-    [self presentViewController:fpController
-                       animated:YES
-                     completion:nil];
-
-    
+    if ([self hasValidFilepickerAPIKey]) {
+        FPPickerController *fpController =[[FPPickerController alloc] init];
+        fpController.fpdelegate=self;
+        fpController.dataTypes=[NSArray arrayWithObjects:@"image/*", nil];
+        //fpController.dataTypes = [NSArray arrayWithObjects:@"image/*", @"video/quicktime", nil];
+        /*
+         * Select and order the sources (Optional) Default is all sources
+         */
+        //fpController.sourceNames = [[NSArray alloc] initWithObjects: FPSourceImagesearch, nil];
+        
+        /*
+         * Display it.
+         */
+        
+        [self presentViewController:fpController
+                           animated:YES
+                         completion:nil];
+        
+    }
 }
 
 #pragma mark -

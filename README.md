@@ -20,8 +20,6 @@ This is a work in progress. Branches will be structured to follow a logical less
 ![iPhone app](http://photos4.meetupstatic.com/photos/event/b/6/6/e/event_224806702.jpeg)
 
 
-
-
 ### ConsumerCredentials.h
 
 * Create a file named ConsumerCredentials.h
@@ -31,6 +29,8 @@ This is a work in progress. Branches will be structured to follow a logical less
 
                 #define kFilepickerAPIKey @"stuff"
 
+
+* plist - add the API keys for filepicker and Aviary
 
 # APIs Used
 
@@ -43,6 +43,13 @@ This is a work in progress. Branches will be structured to follow a logical less
 * [Meetup Group: Women Who Code SF](http://www.meetup.com/Women-Who-Code-SF/)
 * [Google Group: Women Who Code iOS](https://groups.google.com/forum/?fromgroups=#!forum/ios-study-group)
 
+# Nice to Have
+* A Category extension UIButton+NiceButton.h that would custom center the text on the UIButtons we use (they're currently off margin because there's shadow in the graphic we use as the background)
+
 # Screenshots
+
+
+![iPhone app](http://photos4.meetupstatic.com/photos/event/b/6/6/e/event_224806702.jpeg)
+
 
 
