@@ -13,9 +13,8 @@ This is a work in progress. Branches will be structured to follow a logical less
 
 ## Current Branch
 
-* Choose a file from one of your social network/filesharing accounts using Filepicker.io (Dropbox, Facebook, etc)
-* Add text, filter to the image using the Aviary SDK
-* Print out the picture as a real-life postcard using Sincerely
+This is the most convoluted version, not done. Has filepicker, sincerely sdks installed. 
+
 
 ![iPhone app](http://photos4.meetupstatic.com/photos/event/b/6/6/e/event_224806702.jpeg)
 
