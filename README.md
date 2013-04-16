@@ -1,5 +1,7 @@
 # Women Who Code... Sincerely
 
+## Current Branch - halfway point
+
 ![Our Code](http://files.meetup.com/2252591/iOS%20Simulator%20Screen%20shot%20Apr%2012%2C%202013%2010.29.14%20AM.png)
 ## Overview
 
