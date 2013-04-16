@@ -6,14 +6,9 @@
 We are making an iPhone Postcard App using our sponsor's API.
 Sincerely's Ship API is highly awesome and enables you to take pictures and send physical postcards to real human beings!
 
-http://www.meetup.com/Women-Who-Code-SF/events/113359282/
-Meetup at Sincerely, April 12, 2013
 
-This is a work in progress. Branches will be structured to follow a logical lesson plan.
+# Instructions
 
-## Current Branch
-
-This is the blank slate - download this before class starts.
 
 
 ### ConsumerCredentials.h
@@ -28,12 +23,20 @@ This is the blank slate - download this before class starts.
 
 * plist - add the API keys for filepicker and Aviary
 
-# APIs Used
+
+## Details
+
+
+http://www.meetup.com/Women-Who-Code-SF/events/113359282/
+Meetup at Sincerely, April 12, 2013
+
+Thank you!
+
+### APIs Used
 
 * Ship Library by Sincerely https://dev.sincerely.com/docs
-* Filepicker.io iOS - https://developers.filepicker.io/docs/ios/#installquick
 
-# Links
+### Links
 
 * [Women Who Code iOS Group Wiki](https://github.com/iosstudygroup/WomenWhoCodeSincerely/wiki/Women-Who-Code-iOS-Study-Group)
 * [Meetup Group: Women Who Code SF](http://www.meetup.com/Women-Who-Code-SF/)
