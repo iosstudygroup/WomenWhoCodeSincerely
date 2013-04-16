@@ -15,9 +15,9 @@ Sincerely's Ship API is highly awesome and enables you to take pictures and send
 
 2. Unzip and open **_Women Who Code Sincerely.xcodeproj_**
 
-[Open Xcode](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/screen2.png)
+![Open Xcode](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/screen2.png)
 
-
+3. In XCode select File > Open 
 
  ConsumerCredentials.h
 
