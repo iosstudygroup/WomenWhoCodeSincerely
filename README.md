@@ -10,15 +10,12 @@ http://www.meetup.com/Women-Who-Code-SF/events/113359282/
 
 * Meetup at Sincerely, April 12, 2013
 
-## Instructions
+#  Instructions
 
-* Go here first: [Code to Start Study Group Tonight](https://github.com/iosstudygroup/WomenWhoCodeSincerely/tree/01Start)
+## Go here first: [Code to Start Study Group Tonight](https://github.com/iosstudygroup/WomenWhoCodeSincerely/tree/01Start)
 
-<hr>
 
-# More
-
-## Links
+### Links
 
 * [Women Who Code iOS Group Wiki](https://github.com/iosstudygroup/WomenWhoCodeSincerely/wiki/Women-Who-Code-iOS-Study-Group)
 * [Meetup Group: Women Who Code SF](http://www.meetup.com/Women-Who-Code-SF/)
