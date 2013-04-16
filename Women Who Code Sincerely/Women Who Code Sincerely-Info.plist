@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Aviary-API-Key</key>
-	<string>HZwsOJSZykSmygJ82NkO5g</string>
+	<string>YOUR_API_KEY</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -25,7 +25,7 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>Filepicker API Key</key>
-	<string>AJVzuIqjTjWVXS7x5QUSLz</string>
+	<string>YOUR_API_KEY</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIMainStoryboardFile</key>

@@ -167,6 +167,8 @@
 				64E7498C17190D8000B3B1A1 /* WWMakeMineViewController.m */,
 				648F2892171B189A00883240 /* WWFilterViewController.h */,
 				648F2893171B189A00883240 /* WWFilterViewController.m */,
+				644E373E171B53E1004048CA /* UIViewController+APIKeys.h */,
+				644E373F171B53E1004048CA /* UIViewController+APIKeys.m */,
 				648F2894171B189A00883240 /* WWFilterViewController.xib */,
 			);
 			name = GUI;
