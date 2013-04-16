@@ -12,6 +12,8 @@
 		641943B2171CF482003843F3 /* wwcode-computerGirls-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 641943B1171CF482003843F3 /* wwcode-computerGirls-3.png */; };
 		641943B5171CF54E003843F3 /* sincerelyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 641943B4171CF54E003843F3 /* sincerelyLogo.png */; };
 		641943B7171CF586003843F3 /* wwcode-computerGirls4.png in Resources */ = {isa = PBXBuildFile; fileRef = 641943B6171CF586003843F3 /* wwcode-computerGirls4.png */; };
+		641943B9171CF80B003843F3 /* FPPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641943B8171CF80B003843F3 /* FPPicker.framework */; };
+		641943BB171CF81F003843F3 /* FPPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 641943BA171CF81F003843F3 /* FPPicker.bundle */; };
 		643F04EB17187915008F1E05 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04EA17187915008F1E05 /* AssetsLibrary.framework */; };
 		643F04ED17187919008F1E05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04EC17187919008F1E05 /* QuartzCore.framework */; };
 		643F04EF1718791F008F1E05 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643F04EE1718791F008F1E05 /* CoreFoundation.framework */; };
@@ -40,8 +42,6 @@
 		64AE2F5317186D0300B4F6E0 /* Sincerely.framework in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F5117186CF700B4F6E0 /* Sincerely.framework */; };
 		64AE2F5517186D4600B4F6E0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F5417186D4600B4F6E0 /* CoreTelephony.framework */; };
 		64AE2F5717186D4C00B4F6E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */; };
-		64AE2F591718752200B4F6E0 /* FPPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AE2F581718752200B4F6E0 /* FPPicker.framework */; };
-		64AE2F5B1718753400B4F6E0 /* FPPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64AE2F5A1718753400B4F6E0 /* FPPicker.bundle */; };
 		64CB0FAA171B1FE500C4602F /* libAviarySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FA7171B1FE500C4602F /* libAviarySDK.a */; };
 		64CB0FAB171B1FE500C4602F /* AviarySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64CB0FA9171B1FE500C4602F /* AviarySDKResources.bundle */; };
 		64CB0FAD171B201200C4602F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CB0FAC171B201200C4602F /* Accelerate.framework */; };
@@ -60,6 +60,8 @@
 		641943B1171CF482003843F3 /* wwcode-computerGirls-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wwcode-computerGirls-3.png"; path = "../wwcode-computerGirls-3.png"; sourceTree = "<group>"; };
 		641943B4171CF54E003843F3 /* sincerelyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sincerelyLogo.png; sourceTree = "<group>"; };
 		641943B6171CF586003843F3 /* wwcode-computerGirls4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wwcode-computerGirls4.png"; sourceTree = "<group>"; };
+		641943B8171CF80B003843F3 /* FPPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FPPicker.framework; sourceTree = "<group>"; };
+		641943BA171CF81F003843F3 /* FPPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FPPicker.bundle; sourceTree = "<group>"; };
 		643F04EA17187915008F1E05 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		643F04EC17187919008F1E05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		643F04EE1718791F008F1E05 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -95,8 +97,6 @@
 		64AE2F5117186CF700B4F6E0 /* Sincerely.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sincerely.framework; sourceTree = "<group>"; };
 		64AE2F5417186D4600B4F6E0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		64AE2F581718752200B4F6E0 /* FPPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FPPicker.framework; path = "../../../Desktop/Filepicker-ios-f3feb17-1/library/FPPicker.framework"; sourceTree = "<group>"; };
-		64AE2F5A1718753400B4F6E0 /* FPPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FPPicker.bundle; path = "../../../Desktop/Filepicker-ios-f3feb17-1/library/FPPicker.bundle"; sourceTree = "<group>"; };
 		64CB0FA1171B1FE500C4602F /* AFPhotoEditorContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorContext.h; sourceTree = "<group>"; };
 		64CB0FA2171B1FE500C4602F /* AFPhotoEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorController.h; sourceTree = "<group>"; };
 		64CB0FA3171B1FE500C4602F /* AFPhotoEditorControllerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorControllerOptions.h; sourceTree = "<group>"; };
@@ -140,8 +140,8 @@
 				64AE2F1F1718630000B4F6E0 /* UIKit.framework in Frameworks */,
 				64AE2F211718630000B4F6E0 /* Foundation.framework in Frameworks */,
 				64AE2F5217186CF700B4F6E0 /* Sincerely.framework in Frameworks */,
-				64AE2F591718752200B4F6E0 /* FPPicker.framework in Frameworks */,
 				64CB0FAA171B1FE500C4602F /* libAviarySDK.a in Frameworks */,
+				641943B9171CF80B003843F3 /* FPPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +194,8 @@
 		64AE2F1D1718630000B4F6E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				641943BA171CF81F003843F3 /* FPPicker.bundle */,
+				641943B8171CF80B003843F3 /* FPPicker.framework */,
 				64CB0FB8171B204600C4602F /* StoreKit.framework */,
 				64CB0FB6171B203A00C4602F /* OpenGLES.framework */,
 				64CB0FB4171B203500C4602F /* libz.1.2.5.dylib */,
@@ -206,8 +208,6 @@
 				643F04EE1718791F008F1E05 /* CoreFoundation.framework */,
 				643F04EC17187919008F1E05 /* QuartzCore.framework */,
 				643F04EA17187915008F1E05 /* AssetsLibrary.framework */,
-				64AE2F5A1718753400B4F6E0 /* FPPicker.bundle */,
-				64AE2F581718752200B4F6E0 /* FPPicker.framework */,
 				64AE2F5617186D4C00B4F6E0 /* SystemConfiguration.framework */,
 				64AE2F5417186D4600B4F6E0 /* CoreTelephony.framework */,
 				64AE2F5117186CF700B4F6E0 /* Sincerely.framework */,
@@ -352,7 +352,6 @@
 				64AE2F351718630000B4F6E0 /* Default-568h@2x.png in Resources */,
 				64AE2F3B1718630000B4F6E0 /* WWViewController.xib in Resources */,
 				64AE2F46171865B800B4F6E0 /* README.md in Resources */,
-				64AE2F5B1718753400B4F6E0 /* FPPicker.bundle in Resources */,
 				643F04F31718798E008F1E05 /* WomenWhoCode.storyboard in Resources */,
 				64A4BC01171A2987009F1FA0 /* videoplayer.png in Resources */,
 				64A4BC03171A2B01009F1FA0 /* button-red-normal_s1.png in Resources */,
@@ -363,6 +362,7 @@
 				641943B2171CF482003843F3 /* wwcode-computerGirls-3.png in Resources */,
 				641943B5171CF54E003843F3 /* sincerelyLogo.png in Resources */,
 				641943B7171CF586003843F3 /* wwcode-computerGirls4.png in Resources */,
+				641943BB171CF81F003843F3 /* FPPicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
