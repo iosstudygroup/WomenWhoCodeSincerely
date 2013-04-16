@@ -9,30 +9,33 @@ Sincerely's Ship API is highly awesome and enables you to take pictures and send
 
 # Instructions
 
-1. Click on the ZIP download button & save the file to your desktop
+## Select ZIP download button & save the file to your desktop
 
 ![Download](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/download1.png)
 
-2. Unzip and open **_Women Who Code Sincerely.xcodeproj_**
+## Unzip the file and open **_Women Who Code Sincerely.xcodeproj_**
 
 ![Open Xcode](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/screen2.png)
 
-3. We will create a file that has the secret keys for Sincerely. In XCode select **File > New > File** 
+## We will create a file that has the secret keys for Sincerely. In XCode select **File > New > File** 
 
 ![Create New ConsumerCredentials.h File](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/createFile.png)
 
-4. Choose a Template for your new file: - select **other** in the left menu and **empty** then **Next**
+## Choose a Template for your new file: - select **other** in the left menu and **empty** then **Next**
 
 ![new template](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/createEmpty.png)
 
-5. Name your file ConsumerCredentials.h 
+## Name your file ConsumerCredentials.h 
 
 ![name file](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/consumercredentials.png)
 
-6. Type `#define kSincerelyAPIKey @""`  We are going to enter the secret Sincerely API key during our workshop.
+## Type `#define kSincerelyAPIKey @""`  We are going to enter the secret Sincerely API key during our workshop.
 
 ![key](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/consumercredentials2.png)
 
+## Select the file WomenWhoCode.storyboard and then choose the View Controller
+
+![Storyboard screenshot](https://raw.github.com/iosstudygroup/WomenWhoCodeSincerely/01Start/Screenshots/storyboard.png)
  
 
 
