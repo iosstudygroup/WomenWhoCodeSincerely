@@ -17,7 +17,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="F3d-C5-K8T">
-                                <rect key="frame" x="61" y="359" width="201" height="44"/>
+                                <rect key="frame" x="61" y="356" width="201" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
                                 <state key="normal" title="Make Sincerely Postcard" backgroundImage="button-red-normal_s1.png">
@@ -67,16 +67,6 @@
         <image name="button-red-normal_s1.png" width="186" height="58"/>
         <image name="wwcode-computerGirls4.png" width="399" height="330"/>
     </resources>
-    <classes>
-        <class className="WWViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WWViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="sincerelyButtonPressed:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="chooseButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="myPhoto" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

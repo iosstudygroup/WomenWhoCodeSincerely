@@ -1,5 +1,9 @@
 # Women Who Code... Sincerely
 
+## Current Branch
+
+Take a photograph and then print it out as a postcard in real life using the Sincerely SDK.
+
 ![Our Code](http://files.meetup.com/2252591/iOS%20Simulator%20Screen%20shot%20Apr%2012%2C%202013%2010.29.14%20AM.png)
 ## Overview
 
@@ -11,9 +15,6 @@ Meetup at Sincerely, April 12, 2013
 
 This is a work in progress. Branches will be structured to follow a logical lesson plan.
 
-## Current Branch
-
-This is the blank slate - download this before class starts.
 
 
 ### ConsumerCredentials.h
